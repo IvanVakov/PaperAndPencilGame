@@ -6,7 +6,7 @@ This is simple console game - Paper and pencil rom SoftUni Advanced course with 
 This code is a Python implementation of a paper and pencil game, commonly known as Tic-Tac-Toe. The code uses several libraries:
 
 speech_recognition: Allows the program to listen to speech input and recognize the player's name using Google's speech recognition service.
-collections: Provides the deque data structure, which is used to rotate between players.
+collections:
 pyfiglet: Enables the rendering of ASCII art text using different fonts.
 colorama: Provides colored output in the console.
 The main functionality of the code includes:
@@ -18,7 +18,6 @@ choose_position(): Prompts the current player to choose a position on the game b
 print_game_board(begin=False): Prints the current state of the game board. If begin is True, it also displays the initial numbering of the board. This function is used to display the board at various stages of the game.
 start(): Initializes the game by getting the names and symbols of the two players, printing the initial game board, and starting the game loop.
 ask_restart(): Asks the players if they want to restart the game. If they answer "yes," it calls start() to restart the game. If they answer "no," it exits the program.
-The code also defines some constants and variables:
 
 SIZE: The size of the game board (default is 3x3).
 turns: The number of turns played in the game.
