@@ -11,6 +11,8 @@ pyfiglet: Enables the rendering of ASCII art text using different fonts.
 colorama: Provides colored output in the console.
 The main functionality of the code includes:
 
+You can choose between how to play the game -speech recognition or type in your name.
+
 get_name(player_number): Uses speech recognition to prompt each player to say their name and returns the recognized name as a string.
 check_for_win(): Checks if the current player has won the game by examining the game board for winning conditions (diagonals, rows, columns).
 place_symbol(row, col): Places the current player's symbol (X or O) on the game board at the specified row and column. It calls check_for_win() to check for a win and then prints the updated game board.
